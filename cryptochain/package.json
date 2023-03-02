@@ -1,0 +1,19 @@
+{
+  "name": "cryptochain",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start:dev": "nodemon main.js",
+    "test": "jest --watchAll"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "23.6.0"
+  },
+  "dependencies": {
+    "crypto": "^1.0.1"
+  }
+}
